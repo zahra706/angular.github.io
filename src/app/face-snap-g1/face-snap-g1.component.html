@@ -1,0 +1,7 @@
+<div class="face-snap-card" [ngClass]="{snapped: valbou ==='ajouter' }">
+<h1>{{faceSnap.title}}</h1>
+<img [src]="faceSnap.imageUrl" [alt]="faceSnap.title" >
+<p>{{faceSnap.description}}</p>
+<p>{{faceSnap.createdDate}}</p>
+<button (click)="onsnap()">{{valbou}}</button>
+<p>{{faceSnap.snaps}}</p></div>
